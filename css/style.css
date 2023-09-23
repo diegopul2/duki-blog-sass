@@ -1,0 +1,742 @@
+/*Reseteo de estilos*/
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+ul, a {
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/descarga\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+section {
+    margin-top: 30px;
+    padding: 0 10%;
+}
+
+/*DISPLAY DEL HEADER Y NAV*/
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 8%;
+}
+
+
+/*EDICION DE ICONO Y TITULO*/
+
+.nav_icono{
+    display: flex;
+    text-align: center;
+}
+
+.nav_icono1{
+    width: 70px;
+    height: 75px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.nav_icono_titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*EDICION DE LISTAS Y CONTENIDO*/
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*EDICION DE PORTADA*/
+
+.portada{
+    width: 100%;
+    height: 100vh;
+}
+
+/*PARRAFO DESCRIPTIVO*/
+
+.info-portada{
+    font-size: 24px;
+    text-align: justify;
+}
+
+/*SECCION ALBUM*/
+
+.info-musical {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 320px;
+    align-items: center;
+}
+
+.video-duki-cancion{
+    height: 300px;
+    width: 500px;
+}
+
+.Info-musical-h{
+    font-size: 45px;
+}
+
+.Info-musical-p{
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.info-musical-img{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+
+.Video-musical {
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+/*FOOTER*/
+
+#footer{
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+/*BOX 1*/
+.foto-lauria{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+/*BOX 2*/
+.lista-footer ul li{
+    margin-top: 10px;
+    text-align: center;
+}
+.lista-footer ul li a{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/*BOX 3*/
+.redes-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+/*INFO DE REDES*/
+
+.icono-de-redes ul li {
+    display: inline-block;
+}
+
+.icono-de-redes ul li a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/*INFO PERSONAL*/
+
+.icono-de-footer-2 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.icono-de-footer-2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.icono-de-footer-2 p{
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/*PAGINA ALBUMES*/
+
+/*Album 1*/
+.albumestotales {  
+    display: grid;
+    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "album-1 album1-texto album1-box1 album1-box2 album1-box3"
+    "album1-titulo . . . .";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.album-1 { grid-area: album-1; 
+    border-right: 1px solid black;
+}
+.album1-texto { grid-area: album1-texto; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album1-box2 { grid-area: album1-box2; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album1-box3 { grid-area: album1-box3; 
+    font-size: 20px;
+}
+.album1-titulo { grid-area: album1-titulo;
+    font-size: 10px;
+}
+.album1-box1 { grid-area: album1-box1; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+
+.foto-desdeelfindelmundo{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.foto-antesdeameri{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.foto-temporadadereggaeton{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+/*Album 2*/
+
+
+.albumestotales2 {  display: grid;
+    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "album-2 album2-texto album2-box1 album2-box2 album2-box3"
+    "album2-titulo . . . .";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.album-2 { grid-area: album-2; 
+    border-right: 1px solid black;
+}
+.album2-texto { grid-area: album2-texto; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album2-box1 { grid-area: album2-box1; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album2-box2 { grid-area: album2-box2; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album2-box3 { grid-area: album2-box3;
+    font-size: 20px;
+}
+.album2-titulo { grid-area: album2-titulo; 
+    font-size: 10px;
+}
+
+/*Album 3*/
+
+
+.albumestotales3 {  display: grid;
+    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "album-3 album3-texto album3-box1 album3-box2 album3-box3"
+    "album3-titulo . . . .";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.album-3 { grid-area: album-3; 
+    border-right: 1px solid black;
+}
+.album3-texto { grid-area: album3-texto; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album3-box1 { grid-area: album3-box1; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album3-box2 { grid-area: album3-box2; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album3-box3 { grid-area: album3-box3; 
+    font-size: 20px;
+}
+.album3-titulo { grid-area: album3-titulo; 
+    font-size: 10px;
+}
+
+
+/*PAGINA SHOWS*/
+
+
+.showsgeneral {  
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 80px 100px 100px 100px 100px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "fila1-fecha fila1-ciudad fila1-sede ."
+    "fila2-fecha fila2-ciudad fila2-sede fila2-compra"
+    "fila3-fecha fila3-ciudad fila3-sede fila3-compra"
+    "fila4-fecha fila4-ciudad fila4-sede fila4-compra"
+    "fila5-fecha fila5-ciudad fila5-sede fila5-compra";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.fila1-fecha { grid-area: fila1-fecha; 
+    border-bottom: 1px solid black;
+}
+.fila1-ciudad { grid-area: fila1-ciudad; 
+    border-bottom: 1px solid black;
+}
+.fila1-sede { grid-area: fila1-sede; 
+    border-bottom: 1px solid black;
+}
+.fila2-fecha { grid-area: fila2-fecha; }
+.fila3-fecha { grid-area: fila3-fecha; }
+.fila4-fecha { grid-area: fila4-fecha; }
+.fila5-fecha { grid-area: fila5-fecha; }
+.fila2-ciudad { grid-area: fila2-ciudad; }
+.fila3-ciudad { grid-area: fila3-ciudad; }
+.fila4-ciudad { grid-area: fila4-ciudad; }
+.fila5-ciudad { grid-area: fila5-ciudad; }
+.fila2-sede { grid-area: fila2-sede; }
+.fila3-sede { grid-area: fila3-sede; }
+.fila4-sede { grid-area: fila4-sede; }
+.fila5-sede { grid-area: fila5-sede; }
+.fila2-compra { grid-area: fila2-compra; 
+    font-size: 38px;
+}
+.fila2-compra .boton-personalizado1{
+    color: white;
+    background: linear-gradient(
+        50deg,
+        rgba(202, 191, 34, 0.521) 12%,
+        rgba(158, 94, 21, 0.726) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+.fila3-compra { grid-area: fila3-compra; 
+    color: white;
+    background: linear-gradient(
+        50deg,
+        rgba(202, 191, 34, 0.521) 12%,
+        rgba(158, 94, 21, 0.726) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fila4-compra { grid-area: fila4-compra; 
+    color: white;
+    background: linear-gradient(
+        50deg,
+        rgba(202, 191, 34, 0.521) 12%,
+        rgba(158, 94, 21, 0.726) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fila5-compra { grid-area: fila5-compra; 
+    font-size: 38px;
+}
+.fila5-compra .boton-personalizado2{
+    color: white;
+    background: linear-gradient(
+        50deg,
+        rgba(202, 191, 34, 0.521) 12%,
+        rgba(158, 94, 21, 0.726) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+/*PAGINA CONTACTO*/
+
+.formgeneral{
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: linear-gradient(
+        50deg,
+        rgba(202, 191, 34, 0.521) 12%,
+        rgba(158, 94, 21, 0.726) 77%
+    );
+    background-blend-mode: ;
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 100px;
+    max-width: 1000px; 
+    max-height: 1000px; 
+}
+
+.form-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contacto{
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-texto{
+    height: 150px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+    resize: none;
+}
+
+
+.form-email{
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.form-nombre{
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.form-enviar{
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.imagen-lauria-contacto{
+    width: 300px;
+}
+
+.imagen-duki-contacto{
+    width: 300px;
+    border-radius: 80px;
+}
+
+/*PAGINA SOBRE MI*/
+
+.biografia-duki {  display: grid;
+    grid-template-columns: 300px 1000px;
+    grid-template-rows: 200px 1500px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "imagen-duki-concierto2 titulo-biografia"
+    "imagen-duki-concierto2 texto-biografia";
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.imagen-duki-concierto2 { grid-area: imagen-duki-concierto2; 
+    width: 1100px;
+    height: 720px;
+    justify-content: left;
+    margin-top: 150px;
+    margin-left: 200px;
+    
+}
+
+.titulo-biografia { grid-area: titulo-biografia; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 80px;
+    font-size: 60px;
+}
+
+.texto-biografia { grid-area: texto-biografia; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+@media(max-width:576px){
+    #footer {
+        flex-direction: column;
+        width: 576px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .biografia-duki{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 800px 800px;
+        grid-template-areas: 
+        ".imagen-duki-concierto2"
+        "titulo-biografia"
+        "texto-biografia"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+    .imagen-duki-concierto2{
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .portada{
+        margin: 0 auto;
+        max-width: 576px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header nav ul li{
+        display:inline;
+        flex-direction:row;
+    }
+    header nav ul li a{
+        font-size: 10px;
+}
+}
+@media screen and (max-width:576px) {
+    .albumestotales{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "album-1"
+        "album1-titulo"
+        "album1-texto"
+        "album1-box1"
+        "album1-box2"
+        "album1-box3"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+    .albumestotales2{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "album-2"
+        "album2-titulo"
+        "album2-texto"
+        "album2-box1"
+        "album2-box2"
+        "album2-box3"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+    .albumestotales3{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "album-3"
+        "album3-titulo"
+        "album3-texto"
+        "album3-box1"
+        "album3-box2"
+        "album3-box3"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+}
+@media screen and (max-width:576px) {
+    .showsgeneral {  
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 80px 100px 100px 100px 100px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "fila1-fecha fila1-ciudad fila1-sede ."
+    "fila2-fecha fila2-ciudad fila2-sede fila2-compra"
+    "fila3-fecha fila3-ciudad fila3-sede fila3-compra"
+    "fila4-fecha fila4-ciudad fila4-sede fila4-compra"
+    "fila5-fecha fila5-ciudad fila5-sede fila5-compra";
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
+
+    }
+    .showsgeneral h1 {
+        font-size: 20px;
+        m
+    }
+    .showsgeneral .boton-personalizado1 , .boton-personalizado2{
+        font-size: 12px
+
+    }
+}
