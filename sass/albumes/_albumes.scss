@@ -1,0 +1,174 @@
+/*PAGINA ALBUMES*/
+
+/*Album 1*/
+.albumestotales {  
+    display: grid;
+    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "album-1 album1-texto album1-box1 album1-box2 album1-box3"
+    "album1-titulo . . . .";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+    );
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.album-1 { grid-area: album-1; 
+    border-right: 1px solid black;
+}
+.album1-texto { grid-area: album1-texto; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album1-box2 { grid-area: album1-box2; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album1-box3 { grid-area: album1-box3; 
+    font-size: 20px;
+}
+.album1-titulo { grid-area: album1-titulo;
+    font-size: 10px;
+}
+.album1-box1 { grid-area: album1-box1; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+
+.foto-desdeelfindelmundo{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.foto-antesdeameri{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.foto-temporadadereggaeton{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+/*Album 2*/
+
+
+.albumestotales2 {  display: grid;
+    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "album-2 album2-texto album2-box1 album2-box2 album2-box3"
+    "album2-titulo . . . .";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+    );
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.album-2 { grid-area: album-2; 
+    border-right: 1px solid black;
+}
+.album2-texto { grid-area: album2-texto; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album2-box1 { grid-area: album2-box1; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album2-box2 { grid-area: album2-box2; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album2-box3 { grid-area: album2-box3;
+    font-size: 20px;
+}
+.album2-titulo { grid-area: album2-titulo; 
+    font-size: 10px;
+}
+
+/*Album 3*/
+
+
+.albumestotales3 {  display: grid;
+    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-rows: 200px 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "album-3 album3-texto album3-box1 album3-box2 album3-box3"
+    "album3-titulo . . . .";
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+    );
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.album-3 { grid-area: album-3; 
+    border-right: 1px solid black;
+}
+.album3-texto { grid-area: album3-texto; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album3-box1 { grid-area: album3-box1; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album3-box2 { grid-area: album3-box2; 
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+.album3-box3 { grid-area: album3-box3; 
+    font-size: 20px;
+}
+.album3-titulo { grid-area: album3-titulo; 
+    font-size: 10px;
+}
+

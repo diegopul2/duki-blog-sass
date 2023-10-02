@@ -1,0 +1,53 @@
+@media screen and (max-width:576px) {
+    .albumestotales{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "album-1"
+        "album1-titulo"
+        "album1-texto"
+        "album1-box1"
+        "album1-box2"
+        "album1-box3"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+    .albumestotales2{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "album-2"
+        "album2-titulo"
+        "album2-texto"
+        "album2-box1"
+        "album2-box2"
+        "album2-box3"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+    .albumestotales3{
+        grid-template-columns: 500px;
+        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-areas: 
+        "album-3"
+        "album3-titulo"
+        "album3-texto"
+        "album3-box1"
+        "album3-box2"
+        "album3-box3"
+        ;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        display: flex;
+        flex-direction: column;
+        max-width: 576px;
+    }
+}

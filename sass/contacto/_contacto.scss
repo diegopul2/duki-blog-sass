@@ -1,0 +1,113 @@
+/*PAGINA CONTACTO*/
+
+.formgeneral{
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: linear-gradient(
+        50deg,
+        rgba(202, 191, 34, 0.521) 12%,
+        rgba(158, 94, 21, 0.726) 77%
+    );
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 100px;
+    max-width: 1000px; 
+    max-height: 1000px; 
+}
+
+.form-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contacto{
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-texto{
+    height: 150px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+    resize: none;
+}
+
+
+.form-email{
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.form-nombre{
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.form-enviar{
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.imagen-lauria-contacto{
+    width: 300px;
+}
+
+.imagen-duki-contacto{
+    width: 300px;
+    border-radius: 80px;
+}
+
+/*PAGINA SOBRE MI*/
+
+.biografia-duki {  display: grid;
+    grid-template-columns: 300px 1000px;
+    grid-template-rows: 200px 1500px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "imagen-duki-concierto2 titulo-biografia"
+    "imagen-duki-concierto2 texto-biografia";
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.imagen-duki-concierto2 { grid-area: imagen-duki-concierto2; 
+    width: 1100px;
+    height: 720px;
+    justify-content: left;
+    margin-top: 150px;
+    margin-left: 200px;
+    
+}
+
+.titulo-biografia { grid-area: titulo-biografia; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 80px;
+    font-size: 60px;
+}
+
+.texto-biografia { grid-area: texto-biografia; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}

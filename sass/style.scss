@@ -1,0 +1,27 @@
+/*IMPORT RESET*/
+@import "reset";
+/*IMPORT GENERAL*/
+@import "nav";
+@import "footer";
+
+/*IMPORT INICIO*/
+@import "inicio/inicio";
+
+/*IMPORT SOBRE MI*/
+@import "sobre mi/sobremi";
+
+/*IMPORT ALBUMES*/
+@import "albumes/albumes";
+
+/*IMPORT SHOWS*/
+@import "shows/shows";
+
+/*IMPORT CONTACTO*/
+@import "contacto/contacto";
+
+/*IMPORT MEDIA*/
+@import "responsive/responsive_albumes";
+@import "responsive/responsive_contacto";
+@import "responsive/responsive_inicio";
+@import "responsive/responsive_shows";
+@import "responsive/responsive_sobremi";

@@ -1,0 +1,78 @@
+/*FOOTER*/
+
+#footer{
+    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+/*BOX 1*/
+.foto-lauria{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+/*BOX 2*/
+.lista-footer ul li{
+    margin-top: 10px;
+    text-align: center;
+}
+.lista-footer ul li a{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/*BOX 3*/
+.redes-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+/*INFO DE REDES*/
+
+.icono-de-redes ul li {
+    display: inline-block;
+}
+
+.icono-de-redes ul li a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+/*INFO PERSONAL*/
+
+.icono-de-footer-2 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.icono-de-footer-2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.icono-de-footer-2 p{
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media(max-width:576px){
+    #footer {
+        flex-direction: column;
+        width: 576px;
+    }
+}
