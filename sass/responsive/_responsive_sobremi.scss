@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px){
+@media screen and (max-width: 720px){
     .biografia-duki{
         grid-template-columns: 500px;
         grid-template-rows:500px 800px 800px;
@@ -19,6 +19,6 @@
     }
     .portada{
         margin: 0 auto;
-        max-width: 576px;
+        width: 100vh;
     }
 }

@@ -1,0 +1,26 @@
+.biografia-duki {  
+    display: grid;
+    grid-template-columns: 1000px 600px;
+    grid-template-rows: 100px 780px 800px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "imagen-duki-concierto2 titulo-biografia"
+    "imagen-duki-concierto2 texto-biografia"
+    ". texto-biografia";
+    padding: 100px;
+}
+
+.titulo-biografia { 
+    grid-area: titulo-biografia; 
+    text-align: center;
+}
+
+.imagen-duki-concierto2 { 
+    grid-area: imagen-duki-concierto2;
+
+}
+
+.texto-biografia { grid-area: texto-biografia; 
+    text-align: center;
+}

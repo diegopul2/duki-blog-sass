@@ -1,7 +1,7 @@
-@media screen and (max-width:576px) {
-    .showsgeneral {  
+@media screen and (max-width:720px) {
+.showsgeneral {  
     display: grid;
-    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-columns: 80px 80px 80px 100px;
     grid-template-rows: 80px 100px 100px 100px 100px;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -13,14 +13,31 @@
     "fila5-fecha fila5-ciudad fila5-sede fila5-compra";
     align-items: center;
     text-align: center;
-    max-width: 550px;
+    max-width: 576px;
+    padding: 20px;
+}
+.showsgeneral h1 {
+    font-size: 20px;
+}
+.showsgeneral .boton-personalizado1 , .boton-personalizado2{
+    font-size: 12px
+}
+.fila2-compra { grid-area: fila2-compra; 
+    font-size: 8px;
+    margin: 0 auto;
+}
 
-    }
-    .showsgeneral h1 {
-        font-size: 20px;
-    }
-    .showsgeneral .boton-personalizado1 , .boton-personalizado2{
-        font-size: 12px
+.fila3-compra { grid-area: fila3-compra; 
+    font-size: 10px;
+    margin: 0 auto;
+}
 
-    }
+.fila4-compra { grid-area: fila4-compra; 
+    font-size: 10px;
+    margin: 0 auto;
+}
+.fila5-compra { grid-area: fila5-compra; 
+    font-size: 10px;
+    margin: 0 auto;
+}
 }

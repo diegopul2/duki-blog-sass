@@ -1,7 +1,7 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width:720px) {
     .albumestotales{
-        grid-template-columns: 500px;
-        grid-template-rows:500px 500px 500px 500px 500px 500px;
+        grid-template-columns: 400px;
+        grid-template-rows:500px 800px 500px 500px 500px 500px;
         grid-template-areas: 
         "album-1"
         "album1-titulo"
@@ -14,10 +14,19 @@
         grid-row-gap: 0px;
         display: flex;
         flex-direction: column;
-        max-width: 576px;
+        width: 80vh;
+        padding: 10px;
     }
+
+    .album1-texto{
+        grid-area: album2-texto;
+        font-size: 13px;
+        text-align: center;
+        padding: 30px;
+    }
+
     .albumestotales2{
-        grid-template-columns: 500px;
+        grid-template-columns: 400px;
         grid-template-rows:500px 500px 500px 500px 500px 500px;
         grid-template-areas: 
         "album-2"
@@ -31,10 +40,11 @@
         grid-row-gap: 0px;
         display: flex;
         flex-direction: column;
-        max-width: 576px;
+        width: 80vh;
+        padding: 1%;
     }
     .albumestotales3{
-        grid-template-columns: 500px;
+        grid-template-columns: 400px;
         grid-template-rows:500px 500px 500px 500px 500px 500px;
         grid-template-areas: 
         "album-3"
@@ -48,6 +58,7 @@
         grid-row-gap: 0px;
         display: flex;
         flex-direction: column;
-        max-width: 576px;
+        width: 80vh;
+        padding: 10px;
     }
 }
