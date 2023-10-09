@@ -181,6 +181,7 @@ header nav ul li a {
     flex-direction: column;
     width: 100vh;
     align-items: center;
+    padding: 0%;
   }
 }
 /*IMPORT INICIO*/
@@ -235,12 +236,16 @@ header nav ul li a {
 /*IMPORT SOBRE MI*/
 .biografia-duki {
   display: grid;
-  grid-template-columns: 1000px 600px;
-  grid-template-rows: 100px 780px 800px;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 100px 400px 1800px;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "imagen-duki-concierto2 titulo-biografia" "imagen-duki-concierto2 texto-biografia" ". texto-biografia";
+  grid-template-areas: "imagen-duki-concierto2 titulo-biografia" "imagen-duki-concierto2 texto-biografia" "imagen-duki-mododiablo texto-biografia";
   padding: 100px;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .titulo-biografia {
@@ -250,11 +255,19 @@ header nav ul li a {
 
 .imagen-duki-concierto2 {
   grid-area: imagen-duki-concierto2;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .texto-biografia {
   grid-area: texto-biografia;
   text-align: center;
+}
+
+.imagen-duki-mododiablo {
+  grid-area: imagen-duki-mododiablo;
+  width: 100%;
+  border-radius: 15px;
 }
 
 /*IMPORT ALBUMES*/
@@ -739,21 +752,22 @@ header nav ul li a {
 }
 @media screen and (max-width: 720px) {
   .biografia-duki {
-    grid-template-columns: 500px;
+    grid-template-columns: 390px;
     grid-template-rows: 500px 800px 800px;
     grid-template-areas: ".imagen-duki-concierto2" "titulo-biografia" "texto-biografia";
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     display: flex;
     flex-direction: column;
-    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
   }
   .imagen-duki-concierto2 {
     max-width: 576px;
     margin: 0 auto;
   }
-  .portada {
-    margin: 0 auto;
-    width: 100vh;
+  .PORTADA1 .portada {
+    min-width: 100vh;
   }
 }/*# sourceMappingURL=style.css.map */

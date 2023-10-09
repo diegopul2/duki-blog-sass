@@ -1,6 +1,6 @@
 @media screen and (max-width: 720px){
-    .biografia-duki{
-        grid-template-columns: 500px;
+    .biografia-duki {
+        grid-template-columns: 390px;
         grid-template-rows:500px 800px 800px;
         grid-template-areas: 
         ".imagen-duki-concierto2"
@@ -11,14 +11,15 @@
         grid-row-gap: 0px;
         display: flex;
         flex-direction: column;
-        max-width: 576px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0%;
     }
     .imagen-duki-concierto2{
         max-width: 576px;
         margin: 0 auto;
     }
-    .portada{
-        margin: 0 auto;
-        width: 100vh;
-    }
+.PORTADA1 .portada{
+    min-width: 100vh;
+}
 }
