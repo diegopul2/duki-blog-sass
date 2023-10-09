@@ -3,7 +3,7 @@
 
 .showsgeneral {  
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows: 80px 100px 100px 100px 100px;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -24,10 +24,9 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 15px;
-    width: 75%;
-    margin: 0 auto;
     margin-top: 100px;
-
+    justify-content: center;
+    align-items: center;
 }
 .fila1-fecha { grid-area: fila1-fecha; 
     border-bottom: 1px solid black;
@@ -38,8 +37,8 @@
 .fila1-sede { grid-area: fila1-sede; 
     border-bottom: 1px solid black;
 }
-.fila2-fecha { grid-area: fila2-fecha; }
-.fila3-fecha { grid-area: fila3-fecha; }
+.fila2-fecha { grid-area: fila2-fecha;}
+.fila3-fecha { grid-area: fila3-fecha;}
 .fila4-fecha { grid-area: fila4-fecha; }
 .fila5-fecha { grid-area: fila5-fecha; }
 .fila2-ciudad { grid-area: fila2-ciudad; }
@@ -51,7 +50,7 @@
 .fila4-sede { grid-area: fila4-sede; }
 .fila5-sede { grid-area: fila5-sede; }
 .fila2-compra { grid-area: fila2-compra; 
-    font-size: 30px;
+    font-size: 20px;
 }
 .fila2-compra .boton-personalizado1{
     color: white;
@@ -93,9 +92,7 @@
     margin-left: 35px;
     margin-right: 35px;
 }
-.fila5-compra { grid-area: fila5-compra; 
-    font-size: 30px;
-}
+.fila5-compra { grid-area: fila5-compra;}
 .fila5-compra .boton-personalizado2{
     color: white;
     background: linear-gradient(
@@ -107,5 +104,9 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 8px;
+}
+
+.showsgeneral h1{
+    font-size: 30px;
 }
 

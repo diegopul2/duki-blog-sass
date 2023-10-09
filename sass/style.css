@@ -459,7 +459,7 @@ header nav ul li a {
 /*PAGINA SHOWS*/
 .showsgeneral {
   display: grid;
-  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-columns: 250px 250px 250px 250px;
   grid-template-rows: 80px 100px 100px 100px 100px;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -471,9 +471,9 @@ header nav ul li a {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 15px;
-  width: 75%;
-  margin: 0 auto;
   margin-top: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .fila1-fecha {
@@ -541,7 +541,7 @@ header nav ul li a {
 
 .fila2-compra {
   grid-area: fila2-compra;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .fila2-compra .boton-personalizado1 {
@@ -579,7 +579,6 @@ header nav ul li a {
 
 .fila5-compra {
   grid-area: fila5-compra;
-  font-size: 30px;
 }
 
 .fila5-compra .boton-personalizado2 {
@@ -589,6 +588,10 @@ header nav ul li a {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 8px;
+}
+
+.showsgeneral h1 {
+  font-size: 30px;
 }
 
 /*IMPORT CONTACTO*/
