@@ -541,7 +541,7 @@ header nav ul li a {
 
 .fila2-compra {
   grid-area: fila2-compra;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .fila2-compra .boton-personalizado1 {
@@ -579,6 +579,7 @@ header nav ul li a {
 
 .fila5-compra {
   grid-area: fila5-compra;
+  font-size: 25px;
 }
 
 .fila5-compra .boton-personalizado2 {

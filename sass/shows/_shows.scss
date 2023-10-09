@@ -50,7 +50,7 @@
 .fila4-sede { grid-area: fila4-sede; }
 .fila5-sede { grid-area: fila5-sede; }
 .fila2-compra { grid-area: fila2-compra; 
-    font-size: 20px;
+    font-size: 25px;
 }
 .fila2-compra .boton-personalizado1{
     color: white;
@@ -92,7 +92,9 @@
     margin-left: 35px;
     margin-right: 35px;
 }
-.fila5-compra { grid-area: fila5-compra;}
+.fila5-compra { grid-area: fila5-compra;
+    font-size: 25px;
+}
 .fila5-compra .boton-personalizado2{
     color: white;
     background: linear-gradient(
