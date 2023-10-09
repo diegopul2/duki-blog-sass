@@ -3,7 +3,7 @@
 /*Album 1*/
 .albumestotales {  
     display: grid;
-    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-columns: 252px 396px 144px 144px 144px;
     grid-template-rows: 200px 50px;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -24,16 +24,16 @@
     margin: 0 auto;
     margin-top: 200px;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    
 }
 
 .album-1 { grid-area: album-1; 
     border-right: 1px solid black;
+    margin-left: 10px;
 }
 .album1-texto { grid-area: album1-texto; 
     border-right: 1px solid black;
-    font-size: 20px;
+    font-size: 18px;
 }
 .album1-box2 { grid-area: album1-box2; 
     border-right: 1px solid black;
@@ -76,7 +76,7 @@
 
 
 .albumestotales2 {  display: grid;
-    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-columns: 252px 396px 144px 144px 144px;
     grid-template-rows: 200px 50px;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -97,11 +97,10 @@
     margin: 0 auto;
     margin-top: 200px;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 .album-2 { grid-area: album-2; 
     border-right: 1px solid black;
+    margin-left: 10px;
 }
 .album2-texto { grid-area: album2-texto; 
     border-right: 1px solid black;
@@ -126,7 +125,7 @@
 
 
 .albumestotales3 {  display: grid;
-    grid-template-columns: 350px 550px 200px 200px 200px;
+    grid-template-columns: 252px 396px 144px 144px 144px;
     grid-template-rows: 200px 50px;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -147,11 +146,10 @@
     margin: 0 auto;
     margin-top: 200px;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 .album-3 { grid-area: album-3; 
     border-right: 1px solid black;
+    margin-left: 10px;
 }
 .album3-texto { grid-area: album3-texto; 
     border-right: 1px solid black;
